@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7cb4f06b.chunk.css",
+    "main.js": "/static/js/main.d70844c0.chunk.js",
+    "main.js.map": "/static/js/main.d70844c0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ceaf4b5f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ceaf4b5f.js.map",
+    "static/css/2.de424728.chunk.css": "/static/css/2.de424728.chunk.css",
+    "static/js/2.2cf1850a.chunk.js": "/static/js/2.2cf1850a.chunk.js",
+    "static/js/2.2cf1850a.chunk.js.map": "/static/js/2.2cf1850a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2fe4816851a76260644733265dd0af74.js": "/precache-manifest.2fe4816851a76260644733265dd0af74.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/static/css/2.de424728.chunk.css.map",
+    "static/css/main.7cb4f06b.chunk.css.map": "/static/css/main.7cb4f06b.chunk.css.map",
+    "static/js/2.2cf1850a.chunk.js.LICENSE.txt": "/static/js/2.2cf1850a.chunk.js.LICENSE.txt",
+    "static/media/IndBack.png": "/static/media/IndBack.2cc2a960.png",
+    "static/media/IndFront.png": "/static/media/IndFront.913b3094.png",
+    "static/media/KDBack.png": "/static/media/KDBack.d0a57bfa.png",
+    "static/media/KDFront.png": "/static/media/KDFront.0cd0ff95.png",
+    "static/media/despesismo.png": "/static/media/despesismo.e689bb8f.png",
+    "static/media/despesismoBack.png": "/static/media/despesismoBack.1fb91d15.png",
+    "static/media/everyday_hero (4).png": "/static/media/everyday_hero (4).76769605.png",
+    "static/media/front-end_ninja.png": "/static/media/front-end_ninja.55c22669.png",
+    "static/media/hero2.png": "/static/media/hero2.7d5d7b25.png",
+    "static/media/memory.png": "/static/media/memory.14c3f54e.png",
+    "static/media/memoryBack.png": "/static/media/memoryBack.0c0f9178.png",
+    "static/media/shurican.png": "/static/media/shurican.09fe69a1.png",
+    "static/media/youtube.png": "/static/media/youtube.6b61de2b.png",
+    "static/media/youtubeBack.png": "/static/media/youtubeBack.45026dab.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ceaf4b5f.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.2cf1850a.chunk.js",
+    "static/css/main.7cb4f06b.chunk.css",
+    "static/js/main.d70844c0.chunk.js"
+  ]
+}

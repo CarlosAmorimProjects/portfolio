@@ -1,0 +1,36 @@
+body h1{
+    font-family: monospace;
+    font-size: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: darkgray;
+  }
+  
+.intro .link {
+    text-decoration: none;
+  }
+
+@media screen and (max-width : 425px) {
+    body h1 {
+        font-size: 40px;
+    }
+
+}
+
+@media screen and (max-width : 375px) {
+    body h1 {
+        font-size: 40px;
+    }
+
+}
+
+
+@media screen and (max-width : 320px) {
+    body h1 {
+        font-size: 40px;
+    }
+
+  }

@@ -1,0 +1,625 @@
+.container {
+  margin: auto;
+  margin-left: 680px;
+  margin-right: 10px;
+}
+
+.container .title img {
+    margin: auto;
+    height: 50%;
+    width: 50%;
+  }
+
+.container img {
+  margin: auto;
+  margin-top: 100px;
+  display: list-item;
+  width: 10%;
+  height: 10%;
+}
+
+.container .shuriken img:hover {
+  transform: rotate(45deg);
+}
+
+.container .body h2 {
+  text-align: center;
+  margin: auto;
+  font-size: 50px;
+  color: lightgray;
+  margin-top: 100px;
+}
+
+.body {
+  background-color: #383838;
+  margin-top: -200px;
+}
+
+.body .email{
+    margin-left: 35px;
+    font-size: 100px;
+    color: darkgray;
+}
+
+.body .email:hover{
+    color: lightgray;
+}
+
+.body .email p{
+    font-size: 30px;
+    color: darkgray;
+    visibility: hidden;
+}
+
+.body .email:hover p{
+    color: white;
+    bottom:30px;
+    left:0px;
+    visibility: visible;
+}
+
+.body .linkedin{
+    font-size: 100px;
+    color: darkgray;
+}
+
+.body .linkedin:hover{
+    color: lightgray;
+}
+
+.body .github{
+  margin: auto;
+    font-size: 100px;
+    text-decoration: none;
+    color: darkgray;
+}
+
+.body .github:hover{
+    color: lightgray;
+}
+
+.container .playarrow {
+    text-align: center;
+    margin-top: -200px;
+    margin-right: -50px;
+    font-size: 3em;
+ }
+
+ .container .playarrow .Link {
+   color: darkgrey;
+ }
+
+ .container .playarrow .Link:hover {
+   color: white;
+ }
+ 
+ .container .leftarrow {
+   text-align: center;
+   margin-left: -170px;
+   margin-top: -72px;
+   font-size: 3em;
+   color: darkgray;
+ }
+ 
+ .container .leftarrow .Link {
+   color: darkgray;
+ }
+ 
+ .container .leftarrow .Link:hover {
+   color: white;
+   font-size: .9em;
+ }
+ 
+ .container .rightarrow {
+  text-align: center;
+  margin-left: 170px;
+  margin-top: -72px;
+  font-size: 3em;
+  color: darkgray;
+ }
+ 
+ .container .rightarrow .Link {
+   color: darkgray;
+ }
+ 
+ .container .rightarrow .Link:hover {
+   color: white;
+   font-size: .9em;
+ }
+
+
+ @media screen and (max-width : 1920px) {
+
+    .container {
+      margin: auto;
+      margin-left: 400px;
+      margin-right: 10px;
+}
+}
+
+@media screen and (max-width : 1440px) {
+
+  .container {
+    margin: auto;
+    margin-left: 110px;
+    margin-right: 10px;
+  }
+  
+  .container .title img {
+      margin: auto;
+      height: 30%;
+      width: 30%;
+    }
+  
+  .container img {
+    margin: auto;
+    margin-top: 100px;
+    display: list-item;
+    width: 6%;
+    height: 6%;
+  }
+  
+  .container .shuriken img:hover {
+    transform: rotate(45deg);
+  }
+  
+  .container .body h2 {
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    color: lightgray;
+    margin-top: 100px;
+  }
+  
+  .body {
+    background-color: #383838;
+    margin-top: -200px;
+  }
+  
+  .body .email{
+      margin-left: 25px;
+      font-size: 70px;
+      color: darkgray;
+  }
+  
+  .body .email p{
+      font-size: 30px;
+      color: darkgray;
+      visibility: hidden;
+  }
+  
+  .body .linkedin{
+      font-size: 70px;
+      color: darkgray;
+  }
+  
+  
+  .body .github{
+    margin: auto;
+      font-size: 70px;
+      text-decoration: none;
+      color: darkgray;
+  }
+  
+  .container .footer {
+    margin-top: 80px;
+    margin-left: 10px;
+  }
+
+  .container .playarrow {
+      text-align: center;
+      margin-top: -200px;
+      margin-right: -50px;
+      font-size: 2em;
+   }
+   
+   .container .leftarrow {
+     text-align: center;
+     margin-left: -140px;
+     margin-top: -50px;
+     font-size: 2em;
+     color: darkgray;
+   }
+
+   
+   .container .rightarrow {
+    text-align: center;
+    margin-left: 160px;
+    margin-top: -48px;
+    font-size: 2em;
+    color: darkgray;
+   }
+
+  }
+
+  @media screen and (max-width : 1280px) {
+
+    .container {
+      margin: auto;
+      margin-left: 0px;
+      margin-right: 10px;
+    }
+    
+    .container .title img {
+        margin: auto;
+        height: 30%;
+        width: 30%;
+      }
+    
+    .container img {
+      margin: auto;
+      margin-top: 100px;
+      display: list-item;
+      width: 6%;
+      height: 6%;
+    }
+    
+    .container .shuriken img:hover {
+      transform: rotate(45deg);
+    }
+    
+    .container .body h2 {
+      text-align: center;
+      margin: auto;
+      font-size: 30px;
+      color: lightgray;
+      margin-top: 100px;
+    }
+    
+    .body {
+      background-color: #383838;
+      margin-top: -200px;
+    }
+    
+    .body .email{
+        margin-left: 25px;
+        font-size: 70px;
+        color: darkgray;
+    }
+    
+    .body .email p{
+        font-size: 30px;
+        color: darkgray;
+        visibility: hidden;
+    }
+    
+    .body .linkedin{
+        font-size: 70px;
+        color: darkgray;
+    }
+    
+    
+    .body .github{
+      margin: auto;
+        font-size: 70px;
+        text-decoration: none;
+        color: darkgray;
+    }
+    
+    .container .footer {
+      margin-top: 80px;
+      margin-left: 10px;
+    }
+  
+    .container .playarrow {
+        text-align: center;
+        margin-top: -200px;
+        margin-right: -50px;
+        font-size: 2em;
+     }
+     
+     .container .leftarrow {
+       text-align: center;
+       margin-left: -140px;
+       margin-top: -50px;
+       font-size: 2em;
+       color: darkgray;
+     }
+  
+     
+     .container .rightarrow {
+      text-align: center;
+      margin-left: 160px;
+      margin-top: -48px;
+      font-size: 2em;
+      color: darkgray;
+     }
+  
+    }
+  
+ @media screen and (max-width : 768px) {
+
+  .container .title img {
+    margin: auto;
+    margin-left: 555px ;
+    height: 20%;
+    width: 20%;
+  }
+  
+  .container img {
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 610px;
+    display: list-item;
+    width: 5%;
+    height: 5%;
+  }
+  
+  .container .body h2 {
+    text-align: center;
+    margin: auto;
+    margin-left: 570px;
+    font-size: 20px;
+    margin-top: 100px;
+  }
+  
+  .body .email{
+    margin-left: 9px;
+    font-size: 20px;
+  }
+  
+  .body .email p{
+    font-size: 8px;
+  }
+  
+  .body .linkedin{
+    font-size: 20px;
+    color: darkgray;
+  }
+  
+  .body .github{
+    font-size: 20px;
+  }
+  
+  .container .footer {
+    margin: auto;
+    margin-left: 80px;
+  }
+  
+  .container .footer .playarrow {
+    text-align: center;
+    margin-top: -150px;
+    margin-right: -625px;
+    font-size: 0.8em;
+  }
+  
+  
+  .container .leftarrow {
+   text-align: center;
+   margin-left: 520px;
+   margin-top: 35px;
+   font-size: 0.8em;
+  }
+  
+  
+  .container .rightarrow {
+  text-align: center;
+  margin-left: 565px;
+  margin-top: 56px;
+  font-size: 0.8em;
+  color: darkgray;
+  }
+  
+}
+
+ @media screen and (max-width : 425px) {
+
+  .container .title img {
+    margin: auto;
+    margin-left: 460px;
+    margin-top: 80px;
+    height: 30%;
+    width: 30%;
+  }
+  
+  .container img {
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 500px;
+    display: list-item;
+    width: 5%;
+    height: 5%;
+  }
+  
+  .container .body h2 {
+    text-align: center;
+    margin: auto;
+    margin-left: 630px;
+    font-size: 20px;
+    margin-top: 100px;
+  }
+  
+  .body .email{
+    margin-left: 9px;
+    font-size: 30px;
+  }
+  
+  .body .email p{
+    font-size: 10px;
+  }
+  
+  .body .linkedin{
+    font-size: 30px;
+  }
+  
+  .body .github{
+    font-size: 30px;
+  }
+  
+  .container .footer {
+    margin: auto;
+    margin-left: 140px;
+  }
+  
+  .container .footer .playarrow {
+    text-align: center;
+    margin-top: -150px;
+    margin-right: -625px;
+    font-size: 1.5em;
+  }
+  
+  
+  .container .leftarrow {
+   text-align: center;
+   margin-left: 325px;
+   margin-top: 22px;
+   font-size: 1.5em;
+  }
+  
+  
+  .container .rightarrow {
+  text-align: center;
+  margin-left: 400px;
+  margin-top: 40px;
+  font-size: 1.5em;
+  color: darkgray;
+  }
+  
+  }
+
+
+ @media screen and (max-width : 375px) {
+
+  .container .title img {
+    margin: auto;
+    margin-left: 410px ;
+    margin-top: 60px;
+    height: 40%;
+    width: 40%;
+  }
+  
+  .container img {
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 465px;
+    display: list-item;
+    width: 10%;
+    height: 10%;
+  }
+  
+  .container .body h2 {
+    text-align: center;
+    margin: auto;
+    margin-left: 630px;
+    font-size: 20px;
+    margin-top: 100px;
+  }
+  
+  .body .email{
+    margin-left: 14px;
+    font-size: 40px;
+  }
+  
+  .body .email p{
+    font-size: 15px;
+  }
+  
+  .body .linkedin{
+    font-size: 40px;
+    color: darkgray;
+  }
+  
+  .body .github{
+    font-size: 40px;
+  }
+  
+  .container .footer {
+    margin: auto;
+    margin-left: 140px;
+  }
+  
+  .container .footer .playarrow {
+    text-align: center;
+    margin-top: -150px;
+    margin-right: -625px;
+    font-size: 1.5em;
+  }
+  
+  
+  .container .leftarrow {
+   text-align: center;
+   margin-left: 300px;
+   margin-top: 20px;
+   font-size: 1.5em;
+  }
+  
+  
+  .container .rightarrow {
+  text-align: center;
+  margin-left: 385px;
+  margin-top: 40px;
+  font-size: 1.5em;
+  color: darkgray;
+  }
+  
+  }
+
+@media screen and (max-width : 320px) {
+
+.container .title img {
+  margin: auto;
+  margin-left: 275px ;
+  height: 30%;
+  width: 30%;
+}
+
+.container img {
+  margin: auto;
+  margin-top: 100px;
+  margin-left: 305px;
+  display: list-item;
+  width: 10%;
+  height: 10%;
+}
+
+.container .body h2 {
+  text-align: center;
+  margin: auto;
+  margin-left: 360px;
+  font-size: 13px;
+  margin-top: 80px;
+}
+
+.body .email{
+  margin-left: 8px;
+  font-size: 20px;
+}
+
+.body .email p{
+  font-size: 10px;
+}
+
+.body .linkedin{
+  font-size: 20px;
+  color: darkgray;
+}
+
+.body .github{
+  font-size: 20px;
+}
+
+.container .footer .playarrow {
+  text-align: center;
+  margin-top: -150px;
+  margin-right: -370px;
+  font-size: 1.2em;
+}
+
+
+.container .footer .leftarrow {
+ text-align: center;
+ margin-left: 130px;
+ margin-top: 30px;
+ font-size: 1.2em;
+}
+
+
+.container .footer .rightarrow {
+text-align: center;
+margin-left: 235px;
+margin-top: 48px;
+font-size: 1em;
+color: darkgray;
+}
+
+}

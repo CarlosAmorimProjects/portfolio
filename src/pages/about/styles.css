@@ -1,0 +1,157 @@
+.body img {
+    margin: auto;
+    margin-top: 500px;
+}
+
+.body {
+    text-align: center;
+    background: #111;
+    color:darkgray;
+    display: grid;
+    font-family: monospace !important;
+    font-size: 34px;
+    height: 100vh;
+    margin: 0;
+    place-content: center;
+  }
+
+
+.body .playarrow {
+    text-align: center;
+    margin-top: 260px;
+    font-size: 1.4em;
+ }
+
+.body .playarrow .Link {
+  color: darkgray;
+}
+
+.body .playarrow .Link:hover {
+  color: white;
+}
+.body .leftarrow {
+   text-align: center;
+   margin-left: -170px;
+   margin-top: -65px;
+   font-size: 1.2em;
+ }
+ 
+.body .leftarrow .Link {
+   color: darkgray;
+ }
+ 
+.body .leftarrow .Link:hover {
+   color: white;
+   font-size: .9em;
+ }
+ 
+.body .rightarrow {
+  text-align: center;
+  margin-left: 170px;
+  margin-top: -65px;
+  font-size: 1.2em;
+  color: darkgray;
+ }
+ 
+ .body .rightarrow .Link {
+   color: darkgray;
+ }
+ 
+ .body .rightarrow .Link:hover {
+   color: white;
+   font-size: .9em;
+ }
+
+ @media screen and (max-width : 375px) {
+
+  .body img {
+    margin: auto;
+    margin-top: 400px;
+}
+
+.body {
+    text-align: center;
+    background: #111;
+    color:darkgray;
+    display: grid;
+    font-family: monospace !important;
+    font-size: 20px;
+    height: 100vh;
+    margin: 0;
+    place-content: center;
+  }
+
+
+.body .playarrow {
+    text-align: center;
+    margin-top: 270px;
+    font-size: 1.4em;
+ }
+
+.body .leftarrow {
+   text-align: center;
+   margin-left: -170px;
+   margin-top: -40px;
+   font-size: 1.2em;
+ }
+ 
+.body .rightarrow {
+  text-align: center;
+  margin-left: 170px;
+  margin-top: -40px;
+  font-size: 1.2em;
+  color: darkgray;
+ }
+ 
+ .body .rightarrow .Link {
+   color: darkgray;
+ }
+
+ }
+
+ @media screen and (max-width : 320px) {
+
+  .body img {
+    margin: auto;
+    margin-top: 400px;
+}
+
+.body {
+    text-align: center;
+    background: #111;
+    color:darkgray;
+    display: grid;
+    font-family: monospace !important;
+    font-size: 20px;
+    height: 100vh;
+    margin: 0;
+    place-content: center;
+  }
+
+
+.body .playarrow {
+    text-align: center;
+    margin-top: 280px;
+    font-size: 1.4em;
+ }
+
+.body .leftarrow {
+   text-align: center;
+   margin-left: -170px;
+   margin-top: -40px;
+   font-size: 1.2em;
+ }
+ 
+.body .rightarrow {
+  text-align: center;
+  margin-left: 170px;
+  margin-top: -40px;
+  font-size: 1.2em;
+  color: darkgray;
+ }
+ 
+ .body .rightarrow .Link {
+   color: darkgray;
+ }
+
+ }
