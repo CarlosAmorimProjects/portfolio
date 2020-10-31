@@ -134,9 +134,14 @@
       margin: auto;
       margin-left: 400px;
       margin-right: 10px;
-}
+    }
 }
 
+@media screen and (max-width : 1680px) {
+    .container {
+      text-align: center;
+    }
+}
 @media screen and (max-width : 1440px) {
 
   .container {
