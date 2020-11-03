@@ -14,8 +14,6 @@
     color: white;
   }
   
-  
-  
   .App .title p{
     font-size: 120px;
     margin: auto;
@@ -50,7 +48,7 @@
     border-color:#383838;
   
   }
-  
+
   .App-intro {
     font-size: large;
   }
@@ -65,61 +63,28 @@
   }
   
   .App .footer {
-    text-align: center;
-    margin: auto;
-    margin-top: 1350px;
-    margin-bottom: 150px;
-    margin-left: 70px;
-  
-  }
-  
-  .footer .playarrow {
-    margin: auto;
-    margin-left: -150px;
-    font-size: 3.5em;
-  }
-  
-  .footer .playarrow .Link {
-    color: darkgray;
-  }
-  
-  .footer .playarrow .Link:hover {
-    color: white;
-  }
-  
-  .footer .leftarrow {
-    margin-left: -360px;
-    margin-top: -80px;
-    font-size: 3.5em;
-    color: darkgray;
-  }
-  
-  .footer .leftarrow .Link {
-    color: darkgray;
-  }
-  
-  .footer .leftarrow .Link:hover {
-    color: white;
-    font-size: .9em;
-  }
-  
-  .footer .rightarrow {
-    margin-top: -80px;
-    margin-left: 105px;
-    font-size: 3.5em;
-    color: darkgray;
-  }
-  
-  .rightarrow .Link {
-    color: darkgray;
-  }
-  
-  .rightarrow .Link:hover {
-    color: white;
-    font-size: .9em;
+    margin-top: 1200px;
   }
 
+  .App .footer .leftarrow {
+    margin-left: 850px;
+  }
 
+  .App .footer .rightarrow {
+    margin-left: 990px;
+    display: none;
+  }
+
+@media screen and (max-width : 2560px) {
+  .App .footer {
+    margin-top: 1500px;
+  }
+
+  .App .footer .leftarrow {
+    margin-left: 1180px;
+  }
+
+  }
 @media screen and (max-width : 1920px) {
     .App {
       text-align: center;
@@ -188,60 +153,14 @@
     }
     
     .App .footer {
-      text-align: center;
-      margin: auto;
-      margin-top: 1790px;
-      margin-bottom: 50px;
-      margin-left: 70px;
-    
+      margin-top: 1800px;
+      margin-left: 40px;
     }
-    
-    .footer .playarrow {
-      margin: auto;
-      margin-left: -50px;
-      font-size: 2.5em;
+
+    .App .footer .leftarrow {
+      margin-left: 850px;
     }
-    
-    .footer .playarrow .Link {
-      color: darkgray;
-    }
-    
-    .footer .playarrow .Link:hover {
-      color: white;
-    }
-    
-    .footer .leftarrow {
-      margin-left: -200px;
-      margin-top: -60px;
-      font-size: 2.5em;
-      color: darkgray;
-    }
-    
-    .footer .leftarrow .Link {
-      color: darkgray;
-    }
-    
-    .footer .leftarrow .Link:hover {
-      color: white;
-      font-size: .9em;
-    }
-    
-    .footer .rightarrow {
-      margin-top: -59px;
-      margin-left: 105px;
-      font-size: 2.5em;
-      color: darkgray;
-    }
-    
-    .rightarrow .Link {
-      color: darkgray;
-    }
-    
-    .rightarrow .Link:hover {
-      color: white;
-      font-size: .9em;
-    }
-    
+
     }
 
 @media screen and (max-width : 1680px) {
@@ -279,6 +198,16 @@
     border-color:#383838;
   
   }
+
+  .App .footer {
+    margin-top: 1800px;
+    margin-left: 40px;
+  }
+
+  .App .footer .leftarrow {
+    margin-left: 730px;
+  }
+  
 
 }
     
@@ -348,62 +277,16 @@
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
   }
-  
+
   .App .footer {
-    text-align: center;
-    margin: auto;
-    margin-top: 1750px;
-    margin-bottom: 50px;
-    margin-left: 52px;
-  
+    margin-top: 1800px;
+    margin-left: 40px;
   }
-  
-  .footer .playarrow {
-    margin: auto;
-    margin-left: -50px;
-    font-size: 2.5em;
+
+  .App .footer .leftarrow {
+    margin-left: 600px;
   }
-  
-  .footer .playarrow .Link {
-    color: darkgray;
-  }
-  
-  .footer .playarrow .Link:hover {
-    color: white;
-  }
-  
-  .footer .leftarrow {
-    margin-left: -200px;
-    margin-top: -60px;
-    font-size: 2.5em;
-    color: darkgray;
-  }
-  
-  .footer .leftarrow .Link {
-    color: darkgray;
-  }
-  
-  .footer .leftarrow .Link:hover {
-    color: white;
-    font-size: .9em;
-  }
-  
-  .footer .rightarrow {
-    margin-top: -59px;
-    margin-left: 105px;
-    font-size: 2.5em;
-    color: darkgray;
-  }
-  
-  .rightarrow .Link {
-    color: darkgray;
-  }
-  
-  .rightarrow .Link:hover {
-    color: white;
-    font-size: .9em;
-  }
-  
+    
   }
 
 @media screen and (max-width : 1280px) {
@@ -455,7 +338,7 @@
     .App .card {
       float: left;
       padding: 0px;
-      margin-left: 20px;
+      margin-left: 30px;
       border-color:#383838;
     
     }
@@ -472,62 +355,16 @@
       from { transform: rotate(0deg); }
       to { transform: rotate(360deg); }
     }
-    
+
     .App .footer {
-      text-align: center;
-      margin: auto;
-      margin-top: 1750px;
-      margin-bottom: 50px;
-      margin-left: 52px;
-    
+      margin-top: 1800px;
+      margin-left: 40px;
     }
-    
-    .footer .playarrow {
-      margin: auto;
-      margin-left: -50px;
-      font-size: 2.5em;
+
+    .App .footer .leftarrow {
+      margin-left: 540px;
     }
-    
-    .footer .playarrow .Link {
-      color: darkgray;
-    }
-    
-    .footer .playarrow .Link:hover {
-      color: white;
-    }
-    
-    .footer .leftarrow {
-      margin-left: -200px;
-      margin-top: -60px;
-      font-size: 2.5em;
-      color: darkgray;
-    }
-    
-    .footer .leftarrow .Link {
-      color: darkgray;
-    }
-    
-    .footer .leftarrow .Link:hover {
-      color: white;
-      font-size: .9em;
-    }
-    
-    .footer .rightarrow {
-      margin-top: -59px;
-      margin-left: 105px;
-      font-size: 2.5em;
-      color: darkgray;
-    }
-    
-    .rightarrow .Link {
-      color: darkgray;
-    }
-    
-    .rightarrow .Link:hover {
-      color: white;
-      font-size: .9em;
-    }
-    
+
 }
   
 
@@ -562,30 +399,12 @@
  }
 
  .App .footer {
-   margin: auto;
-   margin-top: 3290px;
-   margin-left: 175px;
-
+  margin-top: 3300px;
+  margin-left: 40px;
 }
 
-.footer .playarrow {
-  font-size: 2em;
-  margin-bottom: -50px;
-  margin-left: -220px;
-}
-
-.footer .leftarrow {
-  font-size: 2em;
-  margin: auto;
-  margin-bottom:-75px;
-  margin-right: 330px;
-  margin-top: -20px;
-}
-
-.footer .rightarrow {
-  font-size: 2em;
-  margin-right: 210px;
-  margin-top: 30px;
+.App .footer .leftarrow {
+  margin-left: 400px;
 }
 
 }
@@ -619,33 +438,15 @@
     margin-left: 85px;
     margin-right: 0px;
  }
-
+ 
  .App .footer {
-   margin: auto;
-   margin-top: 3270px;
-   margin-left: 175px;
+  margin-top: 3300px;
+  margin-left: 40px;
+  }
 
-}
-
-.footer .playarrow {
-  font-size: 2em;
-  margin-bottom: -55px;
-  margin-left: -140px;
-}
-
-.footer .leftarrow {
-  font-size: 2em;
-  margin: auto;
-  margin-bottom:-75px;
-  margin-right: 220px;
-  margin-top: -20px;
-}
-
-.footer .rightarrow {
-  font-size: 2em;
-  margin: auto;
-  margin-right: 65px;
-}
+  .App .footer .leftarrow {
+    margin-left: 290px;
+  }
 
 }
 
@@ -680,29 +481,17 @@
  }
 
  .App .footer {
-  margin-left: 310px;
-  margin-bottom: -30px;
+  margin-top: 3300px;
+  margin-left: 190px;
+  font-size: 10px;
+  }
 
-}
+  .App .footer .leftarrow {
+    margin-left: 40px;
+    margin-top: -43px;
+  }
 
-.footer .playarrow {
-  font-size: 1.5em;
-}
-
-.footer .leftarrow {
- font-size: 1.5em;
- margin-top: 20px;
- margin-left: -70px;
-}
-
-.footer .rightarrow {
- font-size: 1.5em;
- margin-top: 40px;
- margin-left: 20px;
- 
-}
-
-}
+ }
 
 @media screen and (max-width : 375px) {
 
@@ -733,28 +522,6 @@
     margin-left: 0px;
     margin-right: 0px;
  }
-
- .App .footer {
-  margin-left: 360px;
-  margin-bottom: -30px;
-
-}
-
-.footer .playarrow {
-  font-size: 1.5em;
-}
-
-.footer .leftarrow {
- font-size: 1.5em;
- margin-left: -130px;
-}
-
-.footer .rightarrow {
- font-size: 1.5em;
- margin-top: 40px;
- margin-left: -10px;
- 
-}
 
 }
 
@@ -788,25 +555,15 @@
     margin-right: 0px;
  }
 
- .App .footer {
-  margin-left: 370px;
-  margin-bottom: -30px;
+  .App .footer {
+    margin-top: 3300px;
+    margin-left: 290px;
+    font-size: 10px;
+    }
 
-}
-
-.footer .playarrow {
-  font-size: 1.5em;
-}
-
-.footer .leftarrow {
- font-size: 1.5em;
-}
-
-.footer .rightarrow {
- font-size: 1.5em;
- margin-top: 40px;
- margin-left: -15px;
- 
-}
+  .App .footer .leftarrow {
+    margin-left: -40px;
+    margin-top: -43px;
+  }
 
 }

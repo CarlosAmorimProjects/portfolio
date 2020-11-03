@@ -12,6 +12,8 @@ import TTSFlippyOnHover from "./cards/tts";
 import SOSFlippyOnHover from "./cards/sosEcoponto";
 import ChatFlippyOnHover from "./cards/chatBot";
 
+import Footer from '../components/footer';
+
 import Ninja from "./images/front-end_ninja.png";
 
 document.body.style.backgroundColor = "#383838";
@@ -68,24 +70,7 @@ class App extends Component {
               <div className="card">
               <DespesismoFlippyOnHover />
             </div>
-            <div className="footer">
-            <div className="playarrow">
-                <Link to="/" className="Link"> 
-                <FontAwesomeIcon icon={faUserNinja}/>
-                </Link>
-            </div>
-            <div className="leftarrow">
-                <Link to="/about" className="Link"> 
-                <FontAwesomeIcon icon={faChevronLeft}/>
-                </Link>
-            </div>
-
-            <div className="rightarrow">
-                <Link to="/contacts" className="Link">
-                <FontAwesomeIcon icon={faChevronRight}/>
-                </Link>
-            </div>
-            </div> 
+            <Footer />
       </div>
       
     );

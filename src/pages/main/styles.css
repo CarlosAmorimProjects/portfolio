@@ -1,19 +1,129 @@
 body h1{
     font-family: monospace;
-    font-size: 74px;
+    font-size: 124px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
+    height: 70vh;
+    margin-top: 450px;
     color: darkgray;
-  }
-  
-.intro .link {
-    text-decoration: none;
+    position: relative;
+    -webkit-animation: fadeIn ease 30s;
+    -moz-animation: fadeIn ease 10s;
+    -o-animation: fadeIn ease 10s;
+    -ms-animation: fadeIn ease 10s;
   }
 
+.intro .link:hover {
+    color: yellowgreen;
+}
+
+.intro .ninja img {
+    display: flex;
+    position: absolute;
+    z-index: 9;
+    margin-top: -1000px;
+    margin-left: 700px;
+    animation: fadeIn ease 30s;
+    -webkit-animation: fadeIn ease 30s;
+    -moz-animation: fadeIn ease 10s;
+    -o-animation: fadeIn ease 10s;
+    -ms-animation: fadeIn ease 10s;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    80% {
+      opacity:0.8;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    80% {
+      opacity:0.8;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    80% {
+      opacity:0.8;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    80% {
+      opacity:0.8;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    80% {
+      opacity:0.8;
+  }
+}
+
+
+@media screen and (max-width : 2560px) {
+
+  .intro .ninja img {
+    margin-left: 1000px;
+    
+  }
+}
+
+@media screen and (max-width : 1440px) {
+
+  .intro .ninja img {
+    margin-left: 500px;
+    margin-top: -1020px;
+    
+  }
+}
+
+@media screen and (max-width : 1024px) {
+
+  .intro .ninja img {
+    margin-left: 300px;
+    margin-top: -1020px;
+    
+  }
+}
+@media screen and (max-width : 768px) {
+
+  .intro .ninja img {
+    margin-left: 160px;
+    margin-top: -1020px;
+  }
+
+  body h1 {
+    font-size: 60px;
+  }
+}
+
+
 @media screen and (max-width : 425px) {
+    
+  .intro .ninja img {
+    margin-left: 100px;
+    margin-top: -800px;
+    width: 40%;
+    height: 30%;
+  }
+
     body h1 {
         font-size: 40px;
     }
@@ -22,7 +132,13 @@ body h1{
 
 @media screen and (max-width : 375px) {
     body h1 {
-        font-size: 40px;
+        font-size: 30px;
+    }
+
+    .intro .ninja img {
+      height: 20%;
+      width: 25%;
+      margin-left: 130px;
     }
 
 }
@@ -31,6 +147,11 @@ body h1{
 @media screen and (max-width : 320px) {
     body h1 {
         font-size: 40px;
+    }
+
+    .intro .ninja img {
+      height: 20%;
+      width: 30%;
     }
 
   }

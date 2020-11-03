@@ -1,0 +1,73 @@
+.footer {
+    text-align: center;
+}
+
+.footer .playarrow {
+    text-align: center;
+    font-size: 3.0em;
+ }
+
+.footer .playarrow .Link {
+  color: darkgray;
+}
+
+.footer .playarrow .Link:hover {
+  color: white;
+}
+
+.footer .leftarrow {
+   position: absolute;
+   text-align: center;
+   margin-left: 450px;
+   font-size: 3.0em;
+   margin-top: -70px;
+ }
+ 
+.footer .leftarrow .Link {
+   color: darkgray;
+ }
+ 
+.footer .leftarrow .Link:hover {
+   color: white;
+   font-size: 0.8em;
+ }
+
+ 
+.footer .rightarrow {
+  position: absolute;
+  margin-left: 590px;
+  margin-top: -120px;
+  font-size: 3.0em;
+  color: darkgray;
+ }
+ 
+ .footer .rightarrow .Link {
+   color: darkgray;
+ }
+
+ .footer .rightarrow .Link:hover {
+   color: white;
+   font-size: 0.8em;
+ }
+
+ .port{
+   visibility: hidden;
+   font-size: 22px;
+   margin-top: -50px;
+   color: yellowgreen;
+ }
+
+ .rightarrow:hover + .port {
+    visibility: visible;
+ }
+
+ .cont {
+   visibility: hidden;
+   font-size: 22px;
+   color: yellowgreen;
+ }
+
+ .leftarrow:hover + .cont {
+   visibility: visible;
+ }
+

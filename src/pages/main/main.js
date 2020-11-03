@@ -2,6 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import { useDencrypt } from "use-dencrypt-effect";
 
+import Ninja from "./../../images/front-end_ninja.png";
+
 import "./styles.css";
 
 const values = ["front-end", "ninja", "portfolio"];
@@ -29,9 +31,13 @@ const Example = () => {
   return (
     <div className="intro">
     
-    <Link to="/about" className="link">
-    <h1>{result}</h1>
-    </Link>
+      <Link to="/about" className="link">
+        <h1>{result}</h1>
+       </Link>
+
+      <div className="ninja">
+        <img src={Ninja} alt='ninja' />
+      </div> 
     </div>
   );
 };
