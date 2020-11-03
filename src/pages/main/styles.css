@@ -85,6 +85,14 @@ body h1{
   }
 }
 
+@media screen and (max-width : 1920px) {
+
+  .intro .ninja img {
+    margin-left: 700px;
+    
+  }
+}
+
 @media screen and (max-width : 1440px) {
 
   .intro .ninja img {
